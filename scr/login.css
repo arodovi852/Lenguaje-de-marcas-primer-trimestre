@@ -34,7 +34,7 @@ body {
 
 
 .header-right {
-  float: right;
+  padding-left: 100rem;
 }
 
 .searchbar{
@@ -42,7 +42,6 @@ body {
 }
 
 .box{
-  align-self: center;
   width: 20rem;
   border: 0.8rem solid #4a4a4a;
   border-radius: 1rem;
