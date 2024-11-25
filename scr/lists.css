@@ -49,4 +49,41 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #9c9c9c;
+
+  text-align: center;
+}
+
+
+.popular_titles{
+  margin: 0;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.photo {
+  height: 15%;
+  width: 15%;
+  margin: 1rem;
+  align-self: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  justify-content: space-around;
+}
+
+
+
+.photo:hover {
+  height: 16%;
+  width: 16%;
+}
+
+.content{
+  background-color: rgba(202, 202, 202, 0.5);
+}
+.link_to_submission{
+  padding: 2rem;
 }

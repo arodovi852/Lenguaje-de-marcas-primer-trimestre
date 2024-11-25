@@ -50,3 +50,62 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #9c9c9c;
 }
+
+.titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  justify-content: space-around;
+  align-content: start;
+}
+.game_names{
+}
+
+
+
+
+.main_body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+}
+.photo {
+  height: 15%;
+  width: 15%;
+  margin: 1rem;
+  align-self: center;
+}
+
+.photo:hover {
+  height: 16%;
+  width: 16%;
+}
+.review_title{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.review_section{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 5rem;
+  justify-content: space-between;
+  align-self: center;
+}
+.box{
+  width: 20rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  background-color: grey;
+}

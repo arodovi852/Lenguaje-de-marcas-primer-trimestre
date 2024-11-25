@@ -51,7 +51,13 @@ body {
   background-color: #9c9c9c;
 }
 
-
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-end;
+  padding: 1.2rem;
+}
 .box{
   width: 20rem;
   border: 0.8rem solid #4a4a4a;
