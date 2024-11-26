@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Backlog Login</title>
     <section class="header">
         <a href="welcome.html" class="logo">Backlog</a>
-        <a href="welcome.html" class="games">Games</a>
+        <a href="game_info.html" class="games">Games</a>
+        <a href="game_data.html" class="reviews">Stats</a>
         <a href="reviews.html" class="reviews">Review</a>
         <a href="lists.html" class="lists">Lists</a>
         <a href="login.html" class="login">Login</a>
@@ -13,19 +14,19 @@
     </section>
 </head>
  <body>
-   <section class="box">
+   <section class="box_login">
          <h1>Sign In</h1>
+           <i>Username:</i>
+            <br></br>
            <input type="text">
-           <i>Username</i>
+            <br></br>
+           <i>Password:</i>
+            <br></br>
            <input type="password">
-           <i>Password</i>
             <br></br>
-           <a href="">Forgot Password</a>
-           <a href="">Signup</a>
+           <a href="#">Forgot Password?</a>
             <br></br>
-           <button>Login</button>
+           <a href="#" class="enlace-enviar" onclick="enviarFormulario()">Login</a>
    </section>
-
-  </section>
  </body>
 </html>

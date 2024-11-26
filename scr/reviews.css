@@ -51,38 +51,45 @@ body {
   background-color: #9c9c9c;
   text-align: center;
 }
-
-.review_title{
+.review_title_reviews{
   color: black;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-size: 2rem;
-  padding: 2rem;
   font-weight: bold;
   text-decoration: none;
 }
-.review_section{
+.review_section_reviews{
   display: flex;
   flex-wrap: wrap;
   flex: 12.5rem;
-  margin: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   justify-content: space-between;
   align-self: center;
 }
 
 .input-box{
   width: 50%;
-  padding: 5rem 2rem;
-  margin: 0;
+  padding: 2rem;
   box-sizing: border-box;
 }
-.box{
-  width: 20rem;
+.box_reviews{
+  width: 25rem;
+  height: 5rem;
   border: 0.8rem solid #4a4a4a;
   border-radius: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.box_reviews:hover {
+  width: 27rem;
+  height: 7rem;
+  transition: 0.3s;
 }

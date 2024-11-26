@@ -49,4 +49,100 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #9c9c9c;
+  text-align: center;
+}
+
+.titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  justify-content: space-around;
+  align-content: start;
+  margin: 1rem;
+}
+
+
+.related-title{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  text-decoration: none;
+}
+
+.main_body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.desc_box_data{
+  width: 20rem;
+  height: 20rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+.photo {
+  height: 15%;
+  width: 15%;
+  margin: 1rem;
+  align-self: center;
+}
+
+
+.photo:hover {
+  height: 16%;
+  width: 16%;
+  transition: 0.3s;
+}
+
+.review_title{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.review_section{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-between;
+  align-self: center;
+}
+.titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 10rem;
+  margin: 1rem;
+  justify-content: space-around;
+  align-self: center;
+}
+.box_data{
+  width: 30rem;
+  height: 5rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.box_data:hover{
+  width: 32rem;
+  height: 7rem;
+  transition: 0.3s;
 }

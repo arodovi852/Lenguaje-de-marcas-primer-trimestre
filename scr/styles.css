@@ -1,0 +1,345 @@
+/* Header */
+.header {
+  overflow: hidden;
+  background-color: #5c5c5c;
+  padding: 1.2rem 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header a:not(a.logo) {
+  color: black;
+  text-align: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  border-radius: 0.25rem;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+.header a.logo {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  text-decoration: none;
+  line-height: 2rem;
+  border-radius: 0.25rem;
+  flex: 20;
+  text-align: left;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+
+
+.header a:hover:not(a.logo) {
+  background-color: #3a3838;
+  color: black;
+  transition: 0.2s;
+}
+
+.searchbar{
+  margin: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9c9c9c;
+  text-align: center;
+}
+/* Boxes */
+/* General */
+
+/* Welcome */
+.welcome_box{
+  width: 15rem;
+  height: 2rem;
+  text-align: center;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  padding: 3rem;
+  background-color: grey;
+}
+
+/* Game data */
+.desc_box_data{
+  width: 20rem;
+  height: 20rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.desc_box_data:hover{
+  width: 22rem;
+  height: 22rem;
+  transition: 0.3s;
+}
+
+.box_data{
+  width: 30rem;
+  height: 5rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+.box_data:hover{
+  width: 32rem;
+  height: 7rem;
+  transition: 0.3s;
+}
+
+/* Game_info */
+.desc_box_info{
+  width: 20rem;
+  height: 10rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.desc_box_info:hover {
+  height: 15rem;
+  width: 25rem;
+  transition: 0.3s;
+}
+
+.box_info{
+  width: 30rem;
+  height: 5rem;
+  border: 0.5rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.box_info:hover {
+  width: 32rem;
+  height: 7rem;
+  transition: 0.3s;
+}
+/* Game submission */
+.box_submission{
+  width: 40rem;
+  height: 20rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background-color: grey;
+}
+/* Lists */
+
+/* Login */
+.box_login{
+  width: 20rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  margin-top: 12.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: grey;
+}
+
+/* Reviews */
+
+.box_reviews{
+  width: 25rem;
+  height: 5rem;
+  border: 0.8rem solid #4a4a4a;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: grey;
+  align-content: center;
+  align-self: center;
+}
+
+.box_reviews:hover {
+  width: 27rem;
+  height: 7rem;
+  transition: 0.3s;
+}
+
+
+
+/* Photos */
+
+
+.photo {
+  height: 15%;
+  width: 15%;
+  margin: 1rem;
+  align-self: start;
+}
+
+.list_images {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 20%;
+  justify-content: space-around;
+}
+
+.photo:hover {
+  height: 16%;
+  width: 16%;
+  transition: 0.3s;
+}
+
+
+
+/* Welcome */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  justify-content: space-around;
+}
+
+.link_to_submission{
+  padding: 2rem;
+}
+
+/* Game data */
+.review_title{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.review_section{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-between;
+  align-self: center;
+}
+.titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 10rem;
+  margin: 1rem;
+  justify-content: space-around;
+  align-self: center;
+}
+
+/* Game info */
+.titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  justify-content: space-around;
+  align-content: start;
+  margin: 1rem;
+}
+
+
+.related-title{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  text-decoration: none;
+}
+
+.main_body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.review_title{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.review_section{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-between;
+  align-self: center;
+}
+/* Game submission */
+
+/* Lists */
+
+/* Login */
+
+/* Reviews */
+.review_title_reviews{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.review_section_reviews{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 12.5rem;
+  margin: 1rem;
+  justify-content: space-between;
+  align-self: center;
+}
+
+/* Input box */
+
+.input-box{
+  width: 20%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.signin{
+    align-self: center;
+}
+
+/* Welcome */
+.link_to_submission{
+  padding: 2rem;
+}
