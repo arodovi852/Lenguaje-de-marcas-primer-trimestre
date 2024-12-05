@@ -555,7 +555,7 @@ body {
 .main_body {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   justify-content: space-around;
   align-items: center;
 }
